@@ -1,0 +1,35 @@
+{
+  "root": true,
+  "extends": "airbnb",
+  "plugins": ["jest"],
+  "env": {
+    "jest/globals": true
+  },
+  "rules": {
+    "no-bitwise": "off",
+    "no-lonely-if": "off",
+    "class-methods-use-this": "off",
+    "arrow-body-style": "off",
+    "no-loop-func": "off",
+    "linebreak-style":"off",
+    "max-classes-per-file": ["error", 3],
+    "spaced-comment": "off",
+    "indent": "off",
+    "no-const-assign": "off",
+    "quotes":"off",
+    "import/extensions": "off",
+    "no-multiple-empty-lines":"off",
+    "prefer-template":"off",
+    "no-else-return": "off",
+    "max-len":"off",
+    "import/no-named-as-default": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "latest"
+    }
+  },
+  "parserOptions": {
+    "ecmaVersion": 2022
+  }
+}
